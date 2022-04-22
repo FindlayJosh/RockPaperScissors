@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+}
+body {
+  background: url(smashPokemonArena.jpg);
+  background-repeat: no-repeat;
+  background: cover;
+}
+
+.playerVsChallenger {
+  display: flex;
+}
+p {
+  height: 50px;
+  width: 100%;
+  font-size: 50px;
+  margin: 0;
+}
+.rock,.paper,.scissors {
+  height: 300px;
+  width: 300px;
+}
+.theSelectors {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+
+  margin-top: 50px;
+}
+.red {
+  color: rgb(220, 20, 37);
+}
+.blue {
+  color: darkblue;
+  float: right;
+}
+
+.scoreBoard {
+  text-align: center;
+
+  height: 300px;
+  color: white;
+  font-size: 50px;
+}
+h2 {
+  width: 50%;
+  margin: 0;
+  text-align: center;
+}
+
+.pVC {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  margin: 0;
+}
+.whereTheResultsAre {
+  height: 100px;
+  width: 100%;
+  margin-top: 100px;
+}
+.whereTheResultsAre h3 {
+  font-size: 50px;
+  text-align: center;
+  color: #cf69ee;
+  margin: 0;
+}
+span {
+  font-size: 75px;
+}
